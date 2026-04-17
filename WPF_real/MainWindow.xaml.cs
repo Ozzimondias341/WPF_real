@@ -24,5 +24,14 @@ namespace WPF_real
         {
             InitializeComponent();
         }
+
+        private void btnStart_Click(object sender, RoutedEventArgs e)
+        {
+            var btn = sender as Button;
+
+            btn.Content = tb.Text;
+        }
+
+
     }
 }
