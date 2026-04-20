@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36915.13 d17.14
+VisualStudioVersion = 17.14.36915.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_real", "WPF_real\WPF_real.csproj", "{7CE08821-EFAE-44C4-86EC-2407A085C28A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grid", "Grid\Grid.csproj", "{0AC67173-4587-451C-9BC6-428B8D880D3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding", "Binding\Binding.csproj", "{515FAF0C-77A3-4B0A-B7F8-AD7F1E1F3051}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7CE08821-EFAE-44C4-86EC-2407A085C28A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CE08821-EFAE-44C4-86EC-2407A085C28A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CE08821-EFAE-44C4-86EC-2407A085C28A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC67173-4587-451C-9BC6-428B8D880D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC67173-4587-451C-9BC6-428B8D880D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC67173-4587-451C-9BC6-428B8D880D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC67173-4587-451C-9BC6-428B8D880D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{515FAF0C-77A3-4B0A-B7F8-AD7F1E1F3051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{515FAF0C-77A3-4B0A-B7F8-AD7F1E1F3051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{515FAF0C-77A3-4B0A-B7F8-AD7F1E1F3051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{515FAF0C-77A3-4B0A-B7F8-AD7F1E1F3051}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
