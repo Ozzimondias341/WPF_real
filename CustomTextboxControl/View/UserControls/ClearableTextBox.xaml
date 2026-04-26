@@ -14,6 +14,9 @@
             Name="txtInput"
             VerticalContentAlignment="Center"
             HorizontalContentAlignment="Center"
+            Background="Transparent"
+            TextChanged="txtInput_TextChanged"
+            KeyDown="txtInput_KeyDown"
             />
 
         <TextBlock
@@ -38,6 +41,7 @@
             Background="Transparent"
             BorderThickness="0"
             Click="btnClear_Click"
+            IsTabStop="False"
             />
 
     </Grid>

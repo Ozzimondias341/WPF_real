@@ -21,11 +21,12 @@
 
         </Grid.RowDefinitions>
 
-        <UserControls:ClearableTextBox 
-            Grid.Row="1"
-            Width="250"
-            Height="40"
-            />
+        <UserControls:ClearableTextBox Grid.Row="0" Width="250" Height="40" Placeholder="Last name"/>
+        <UserControls:ClearableTextBox Grid.Row="1" Width="250" Height="40" Placeholder="First name"/>
+        <UserControls:ClearableTextBox Grid.Row="2" Width="250" Height="40" Placeholder="Middle name"/>
+        <UserControls:ClearableTextBox Grid.Row="3" Width="250" Height="40" Placeholder="Birth date"/>
+        <UserControls:ClearableTextBox Grid.Row="4" Width="250" Height="40" Placeholder="E-mail"/>
+        <UserControls:ClearableTextBox Grid.Row="5" Width="250" Height="40" Placeholder="Phone"/>
 
     </Grid>
 </Window>
